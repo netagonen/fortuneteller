@@ -5,4 +5,8 @@ puts "Welcome to the fortune teller game. I will tell your fortune"
 puts "What is your name?"
 puts prompt
 name = gets.chomp
-puts "Your name is #{name}"
+puts "Your name is #{name.capitalize}"
+
+puts "#{name.capitalize} how old are you?"
+puts prompt
+age = gets.chomp.to_i
